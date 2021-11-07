@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family:'Satisfy', cursive;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: normal;
+    color: rgb(142, 185, 61);
+    margin-left: 5rem;
+
+}
+
+.countdown-container {
+    display: flex;
+    margin: 5%;
+}
+
+.big-text{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 5 15rem;
+}
+
+.countdown-el  {
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
