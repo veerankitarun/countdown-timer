@@ -24,6 +24,7 @@ h1{
     font-weight: normal;
     color: rgb(142, 185, 61);
     margin-left: 5rem;
+    justify-content: center;
 
 }
 
@@ -33,10 +34,13 @@ h1{
 }
 
 .big-text{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 1;
     margin: 5 15rem;
+     word-spacing: 5px;
+    margin-left: 2px;
+    margin-right: 12px;
 }
 
 .countdown-el  {
